@@ -21,12 +21,19 @@ body {
   width: 80px;
   height: 84px;
   background-color: gray;
-  border: 2px solid;
+  border: 2px solid white;
   transform: skewX(-15deg);
   border-radius: 10px;
   margin: 0 5px;
+  transition: 
+    transform .2s,
+    background-color .8s;
 }
 
 .hero:hover {
-  transform: scale(1.2) skewX(-15deg);
+  background-color: #ff9c00;
+  transform: 
+    scale(1.2)
+    skewX(-15deg);
+  z-index: 1;
 }
