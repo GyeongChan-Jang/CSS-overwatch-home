@@ -1,33 +1,35 @@
 body {
+  background-image: url(./images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 100vh;
   display: flex;
 }
 
 .container {
-  max-width: 700px;
+  max-width: 720px;
+  height: 560px;
   display: flex;
   padding: 40px 20px;
-  background-color: orange;
   /* 컨테이너를 가운데로 옮기기 */
   margin: 0 auto;
   margin-top: 80px;
   flex-wrap: wrap;
   justify-content: center;
   box-sizing: border-box;
-  align-items: center;
 }
 
 .hero {
   width: 80px;
   height: 84px;
   background-color: gray;
-  border: 2px solid white;
+  border: 3px solid #fff;
   transform: skewX(-15deg);
   border-radius: 10px;
-  margin: 0 5px;
+  margin: 0 4px;
   transition: 
-    transform .2s,
-    background-color .8s;
+    transform .1s,
+    background-color .6s;
   overflow: hidden;
 }
 
