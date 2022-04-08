@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  max-width: 660px;
+  height: 460px;
+  display: flex;
+  padding: 40px 20px;
+  background-color: orange;
+  /* 컨테이너를 가운데로 옮기기 */
+  margin: 0 auto;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: content-box;
+}
+
+.hero {
+  width: 80px;
+  height: 84px;
+  background-color: gray;
+  border: 2px solid;
+  transform: skewX(-15deg);
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.hero:hover {
+  transform: scale(1.2) skewX(-15deg);
+}
